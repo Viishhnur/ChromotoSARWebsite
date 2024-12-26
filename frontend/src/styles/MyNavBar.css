@@ -1,0 +1,31 @@
+.custom-navbar {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 1rem 2rem;
+  }
+  
+  .brand-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white !important;
+  }
+  
+  .nav-link-custom {
+    font-size: 1.1rem;
+    color: #ffffff !important;
+    margin-right: 1rem;
+  }
+  
+  .nav-link-custom:hover {
+    color: #f8f9fa !important;
+    text-decoration: underline;
+  }
+  
+  .nav-dropdown-custom .dropdown-item {
+    font-size: 1rem;
+  }
+  
+  .nav-dropdown-custom .dropdown-item:hover {
+    background-color: #2575fc;
+    color: white;
+  }
+  
