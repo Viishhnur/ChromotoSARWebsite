@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import HomePage from "./pages/HomePage";
@@ -9,7 +9,7 @@ import FloodDetectionPage from "./pages/FloodDetectionPage";
 import CropClassifyVitPage from "./pages/CropClassifyVitPage";
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Routes>
         <Route path="/" element={<Navigate to={"/login"}></Navigate>}></Route>
         <Route path="/login" element={<LoginPage />}></Route>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/home/flood-detection" element={<FloodDetectionPage />} />
           <Route path="/home/crop-classification-vit" element={<CropClassifyVitPage />} />
       </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 

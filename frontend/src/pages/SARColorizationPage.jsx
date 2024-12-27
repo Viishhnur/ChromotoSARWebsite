@@ -19,7 +19,7 @@ function SARColorizationPage() {
     }
     setLoading(true);
     try {
-      const response = await fetch('http://192.168.29.196:8080/sar-api/colorize', {
+      const response = await fetch('http://localhost:8080/sar-api/colorize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
