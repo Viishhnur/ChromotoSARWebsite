@@ -5,9 +5,10 @@ import react from '@vitejs/plugin-react'
 // this file is used to configure the frontend
 export default defineConfig({
   plugins: [react()],
-  server : {
-    host : '0.0.0.0',
-    port : 3000
+  server: {
+    host: '0.0.0.0',
+    port: 3000
   },
-  base : '/'
+  base: './'  // Use relative paths for assets
 })
+
