@@ -34,7 +34,7 @@ function Grid() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-12">
           {projects.map((project, idx) => (
             <a
-              href={project.link}
+              href={'https://chromoto-sar.vercel.app' + project.link}
               key={idx}
               className="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 ease-in-out transform hover:-translate-y-1"
             >
