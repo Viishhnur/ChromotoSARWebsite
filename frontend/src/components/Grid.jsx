@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Grid() {
   const projects = [
@@ -33,8 +34,8 @@ function Grid() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-12">
           {projects.map((project, idx) => (
-            <a
-              href={'https://chromoto-sar.vercel.app' + project.link}
+            <Link
+              to={project.link}
               key={idx}
               className="group relative overflow-hidden rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 ease-in-out transform hover:-translate-y-1"
             >
@@ -66,7 +67,7 @@ function Grid() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
