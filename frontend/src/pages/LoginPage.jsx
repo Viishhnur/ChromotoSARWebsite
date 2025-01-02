@@ -16,7 +16,7 @@ const LoginPage = () => {
     const {email,password} = formData;
 
     try{
-      const url = "http://18.232.96.25:80/auth/login";
+      const url = "http://localhost:8080/auth/login";
 
       const response = await fetch(url,{
         method : "POST",

@@ -11,16 +11,16 @@ function CropClassifyVGGPage() {
     setImageBase64(base64);
     setClassificationResult(null);
   };
-  
+
   const handleClassification = async () => {
     if (!imageBase64) {
       alert("Please upload an image first.");
       return;
     }
     
-    setLoading(true); 
+    setLoading(true);
     try {
-      const response = await fetch('http://18.232.96.25:80/vgg-api/predictVGG', {
+      const response = await fetch('http://localhost:8080/vgg-api/predictVGG', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
