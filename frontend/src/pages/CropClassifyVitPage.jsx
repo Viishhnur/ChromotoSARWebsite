@@ -20,7 +20,7 @@ function CropClassifyVit() {
     
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:8080/vit-api/predictVit', {
+      const response = await fetch('http://18.232.96.25:80/vit-api/predictVit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

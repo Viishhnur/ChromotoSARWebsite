@@ -20,7 +20,7 @@ function CropClassifyVGGPage() {
     
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:8080/vgg-api/predictVGG', {
+      const response = await fetch('http://18.232.96.25:80/vgg-api/predictVGG', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

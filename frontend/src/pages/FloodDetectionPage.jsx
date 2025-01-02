@@ -23,7 +23,7 @@ function FloodDetectionPage() {
     setLoading(true);
     
     try {
-      const response = await fetch('http://localhost:8080/flood-api/detect', {
+      const response = await fetch('http://18.232.96.25:80/flood-api/detect', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
