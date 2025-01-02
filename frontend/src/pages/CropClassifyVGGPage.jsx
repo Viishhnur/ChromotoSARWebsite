@@ -18,7 +18,7 @@ function CropClassifyVGGPage() {
       return;
     }
     
-    setLoading(true);
+    setLoading(true); 
     try {
       const response = await fetch('http://18.232.96.25:80/vgg-api/predictVGG', {
         method: 'POST',

@@ -31,7 +31,7 @@ const SignUpPage = () => {
     }
     try{
         
-      const url = "http://localhost:8080/auth/signup";
+      const url = "http://18.232.96.25:80/auth/signup";
 
       const response = await fetch(url,{
         method : "POST",
