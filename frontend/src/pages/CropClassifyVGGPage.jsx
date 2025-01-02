@@ -11,7 +11,7 @@ function CropClassifyVGGPage() {
     setImageBase64(base64);
     setClassificationResult(null);
   };
-
+  
   const handleClassification = async () => {
     if (!imageBase64) {
       alert("Please upload an image first.");
