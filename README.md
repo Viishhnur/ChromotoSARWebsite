@@ -62,5 +62,4 @@ Visit: http://localhost:3000 🚀
 ## 🔗 Useful Links
 
 - 🌍 **Live Website**: [Chromoto SAR](https://chromoto-sar.vercel.app)
-- 📌 **GitHub Repo**: [View on GitHub](https://github.com/Viishhnur/Chromoto-SAR)
 - 📢 **Demo Video**: [Watch Now](https://youtu.be/1aOEtc9Euhc?si=tppnn23YP7FmZfnM)
