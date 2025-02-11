@@ -1,7 +1,5 @@
 # 🌍 Chromoto SAR – AI-Powered Remote Sensing for Disaster Management
 
-![Chromoto SAR](https://your-image-link-here.com/banner.png)
-
 Chromoto SAR is an AI-driven web platform leveraging **Generative AI and Remote Sensing** for **SAR (Synthetic Aperture Radar) image colorization, flood detection, and crop mapping**. It enables real-time SAR data processing for **environmental monitoring, disaster management, and agriculture**.
 
 ## 🚀 Features
